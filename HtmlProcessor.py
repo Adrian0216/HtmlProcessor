@@ -43,7 +43,7 @@ class DependencyAuditor(ctk.CTk if ctk else object):
             import bs4
             return "INSTALLED", f"Version: {bs4.__version__}\nLocation: {spec.origin}"
         else:
-            return "MISSING", "Run 'pip install beautifulsoup4' to resolve."
+            return "MISSING", "Run"
 
     def run_cli_audit(self):
         """Fallback for environments without CustomTkinter."""

@@ -9,7 +9,7 @@ except ImportError:
 class DependencyAuditor(ctk.CTk if ctk else object):
     """
     A professional utility to verify if the 'bs4' package 
-    is correctly installed in the current Python path.
+    is correctly installed.
     """
     def __init__(self):
         if ctk:

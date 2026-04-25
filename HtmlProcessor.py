@@ -48,7 +48,7 @@ class DependencyAuditor(ctk.CTk if ctk else object):
     def run_cli_audit(self):
         """Fallback for environments without CustomTkinter."""
         status, detail = self.check_bs4()
-        print(f"--- ENVIRONMENT AUDIT ---\nSTATUS: {status}\n{detail}")
+        print(f"--- ENVIRONMENT AUDIT😍 ---\nSTATUS: {status}\n{detail}")
 
 if __name__ == "__main__":
     # Resilience: Check if we are in a GUI-capable environment
